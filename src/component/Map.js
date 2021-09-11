@@ -14,7 +14,7 @@ function Map({ ip }) {
     async function getInfoIp() {
       try {
         const response = await axios.get(
-          "https://geo.ipify.org/api/v1?apiKey=at_mGXeU1zY4JbFU1sxUdh1WsaPcmALT&ipAddress=" +
+          "https://geo.ipify.org/api/v1?apiKey=at_E5aJ3dqIjuQwcpgr1pLKWxKX5xz92&ipAddress=" +
             String(ip)
         );
 

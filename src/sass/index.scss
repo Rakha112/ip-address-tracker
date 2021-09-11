@@ -7,6 +7,11 @@
 }
 
 body {
+  @media screen and (min-width: 1000px) {
+    background-size: contain;
+  }
+  height: 100vh;
+  overflow: hidden;
   position: relative;
   background-image: url("../images/pattern-bg.png");
   // background-color: black;
@@ -16,6 +21,9 @@ body {
 
 .App {
   h1 {
+    @media screen and (min-width: 1000px) {
+      font-size: 30px;
+    }
     font-weight: 500;
     font-size: 25.5px;
     margin-top: 26px;
@@ -40,6 +48,9 @@ body {
         border: none;
         background-color: white;
         padding: 18px;
+        @media screen and (min-width: 1000px) {
+          width: 497px;
+        }
       }
       button {
         border-radius: 0 14px 14px 0;
@@ -57,24 +68,64 @@ body {
     transform: translate(-50%, 50%);
     top: 0;
     left: 50%;
-
     width: 327px;
     height: 294px;
     z-index: 1;
     padding-top: 26px;
     position: absolute;
-
     border-radius: 14px;
     background-color: white;
     text-align: center;
+    @media screen and (min-width: 1000px) {
+      padding-top: 0;
+      text-align: left;
+      transform: translate(-50%, 90%);
+      width: 1110px;
+      height: 161px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .ip_address {
+        margin-left: 18px;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        border-right: 1px solid $Dark_Gray;
+      }
+      .location {
+        margin-left: 18px;
+        border-right: 1px solid $Dark_Gray;
+        width: 100%;
+      }
+      .timezone {
+        margin-left: 18px;
+        border-right: 1px solid $Dark_Gray;
+        width: 100%;
+      }
+      .isp {
+        margin-left: 18px;
+        width: 100%;
+      }
+    }
     p {
       color: $Dark_Gray;
       font-size: 10px;
       font-weight: 700;
       letter-spacing: 1.5px;
       margin-bottom: 8px;
+      @media screen and (min-width: 1000px) {
+        margin-bottom: 14px;
+        font-size: 12px;
+      }
     }
     h2 {
+      @media screen and (min-width: 1000px) {
+        padding-bottom: 0px;
+        font-size: 24px;
+      }
       font-weight: 500;
       color: $Very_Dark_Gray;
       font-size: 19px;
@@ -88,11 +139,14 @@ body {
     display: none;
   }
   .map {
+    @media screen and (min-width: 1000px) {
+      margin-top: 102px;
+    }
     margin-top: 100px;
     .leaflet-container {
       z-index: 0;
-
-      padding: 19rem 0;
+      height: 75vh;
+      // padding: 19rem 0;
       width: 100%;
     }
   }
