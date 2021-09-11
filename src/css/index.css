@@ -67,13 +67,15 @@ body {
 }
 
 .App .ip__detail {
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  top: 0;
+  left: 50%;
   width: 327px;
   height: 294px;
   z-index: 1;
   padding-top: 26px;
   position: absolute;
-  margin-top: 24px;
-  margin-left: 24px;
   border-radius: 14px;
   background-color: white;
   text-align: center;
@@ -92,6 +94,14 @@ body {
   color: #2b2b2b;
   font-size: 19px;
   padding-bottom: 24px;
+}
+
+.App .leaflet-top {
+  display: none;
+}
+
+.App .leaflet-control-attribution {
+  display: none;
 }
 
 .App .map {

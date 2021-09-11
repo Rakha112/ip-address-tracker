@@ -54,13 +54,16 @@ body {
     }
   }
   .ip__detail {
+    transform: translate(-50%, 50%);
+    top: 0;
+    left: 50%;
+
     width: 327px;
     height: 294px;
     z-index: 1;
     padding-top: 26px;
     position: absolute;
-    margin-top: 24px;
-    margin-left: 24px;
+
     border-radius: 14px;
     background-color: white;
     text-align: center;
@@ -77,6 +80,12 @@ body {
       font-size: 19px;
       padding-bottom: 24px;
     }
+  }
+  .leaflet-top {
+    display: none;
+  }
+  .leaflet-control-attribution {
+    display: none;
   }
   .map {
     margin-top: 100px;
