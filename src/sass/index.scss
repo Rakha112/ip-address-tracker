@@ -7,7 +7,7 @@
 }
 
 body {
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1150px) {
     background-size: contain;
   }
   height: 100vh;
@@ -21,7 +21,7 @@ body {
 
 .App {
   h1 {
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1150px) {
       font-size: 30px;
     }
     font-weight: 500;
@@ -48,7 +48,7 @@ body {
         border: none;
         background-color: white;
         padding: 18px;
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 1150px) {
           width: 497px;
         }
       }
@@ -76,7 +76,7 @@ body {
     border-radius: 14px;
     background-color: white;
     text-align: center;
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1150px) {
       padding-top: 0;
       text-align: left;
       transform: translate(-50%, 90%);
@@ -116,13 +116,13 @@ body {
       font-weight: 700;
       letter-spacing: 1.5px;
       margin-bottom: 8px;
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1150px) {
         margin-bottom: 14px;
         font-size: 12px;
       }
     }
     h2 {
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1150px) {
         padding-bottom: 0px;
         font-size: 24px;
       }
@@ -139,7 +139,7 @@ body {
     display: none;
   }
   .map {
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1150px) {
       margin-top: 102px;
     }
     margin-top: 100px;

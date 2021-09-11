@@ -15,7 +15,7 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   body {
     background-size: contain;
   }
@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App h1 {
     font-size: 30px;
   }
@@ -69,7 +69,7 @@ body {
   padding: 18px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App .form form input {
     width: 497px;
   }
@@ -101,7 +101,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App .ip__detail {
     padding-top: 0;
     text-align: left;
@@ -154,7 +154,7 @@ body {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App .ip__detail p {
     margin-bottom: 14px;
     font-size: 12px;
@@ -168,7 +168,7 @@ body {
   padding-bottom: 24px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App .ip__detail h2 {
     padding-bottom: 0px;
     font-size: 24px;
@@ -187,7 +187,7 @@ body {
   margin-top: 100px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .App .map {
     margin-top: 102px;
   }

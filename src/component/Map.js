@@ -39,7 +39,7 @@ function Map({ ip }) {
 
   return (
     <div className="map">
-      <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
+      <MapContainer center={position} zoom={23} scrollWheelZoom={false}>
         <ChangeMapView coords={position} />
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
