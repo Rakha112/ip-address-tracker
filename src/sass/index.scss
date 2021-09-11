@@ -1,0 +1,90 @@
+@import "general";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-image: url("../images/pattern-bg.png");
+  // background-color: black;
+  background-repeat: no-repeat;
+  font-family: "Rubik", sans-serif;
+}
+
+.App {
+  h1 {
+    font-weight: 500;
+    font-size: 25.5px;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    color: white;
+    text-align: center;
+  }
+  .form {
+    margin: 0 24px 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 18.5;
+      input {
+        font-size: 18px;
+        width: 269px;
+        border-radius: 14px 0 0 14px;
+        border: none;
+        background-color: white;
+        padding: 18px;
+      }
+      button {
+        border-radius: 0 14px 14px 0;
+        background-color: black;
+        width: 58px;
+        padding: 16px;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  .ip__detail {
+    width: 327px;
+    height: 294px;
+    z-index: 1;
+    padding-top: 26px;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 24px;
+    border-radius: 14px;
+    background-color: white;
+    text-align: center;
+    p {
+      color: $Dark_Gray;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-weight: 500;
+      color: $Very_Dark_Gray;
+      font-size: 19px;
+      padding-bottom: 24px;
+    }
+  }
+  .map {
+    margin-top: 100px;
+    .leaflet-container {
+      z-index: 0;
+
+      padding: 19rem 0;
+      width: 100%;
+    }
+  }
+}
