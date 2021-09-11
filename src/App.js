@@ -50,7 +50,7 @@ function App() {
         </form>
       </div>
       <Info ip={myIP} />
-      <Map />
+      <Map ip={myIP} />
     </div>
   );
 }
